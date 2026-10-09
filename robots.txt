@@ -1,0 +1,4 @@
+# Stránka zůstává přístupná, aby vyhledávače přečetly zákaz indexování v HTML.
+User-agent: *
+Allow: /
+Disallow: /assets/contact-data.js
