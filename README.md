@@ -1,6 +1,10 @@
-# JP – Auto Financial Partner
+# JP – Auto Financial Partner · luxusnější varianta
 
 Hotový statický web pro **jpautofinancial.eu**. Nepotřebuje instalaci, databázi ani sestavení. Veškeré obrázky, styly a skripty jsou lokální; web nepoužívá analytiku, cookies ani externí fonty.
+
+## Nahrazení původní varianty
+
+Toto je druhá samostatná varianta téhož webu. Obsah a kontaktní údaje jsou zachovány. Při nahrazení již zveřejněného webu nahrajte do existujícího repozitáře `index.html`, `404.html`, `robots.txt`, `CNAME`, `.nojekyll` a celou složku `assets` včetně `flags` a `logistics-hero.png`. Potvrďte změny do stejné větve. DNS ani doménu znovu nenastavujte. Původní soubory si můžete ponechat v předchozí verzi GitHubu.
 
 ## Zveřejnění na GitHub Pages
 
@@ -47,3 +51,12 @@ Kontaktní údaje v `assets/contact-data.js` jsou uloženy jako UTF-8 JSON zakó
 ## Místní náhled
 
 Soubor `index.html` lze otevřít přímo v prohlížeči společně se složkou `assets`. Samostatný náhled dodaný vedle ZIPu obsahuje vše v jednom HTML souboru; do repozitáře ho nenahrávejte.
+
+
+## Grafika a licence
+
+Hlavní grafika je původní ilustrační obraz vytvořený vestavěným imagegen; nezachycuje konkrétní vlastní provozovnu. Na webu je označena jako ilustrační vyobrazení. Uložený webový soubor je `assets/logistics-hero.png`.
+
+Zadání grafiky: Cinematic aerial view of a fictional European logistics terminal at blue hour; realistic warehouses and trucks centered/right, warm amber lighting, navy and graphite palette, dark uncluttered left for text, no logos or text.
+
+Vlajky pocházejí z projektu **flag-icons**, licence MIT: https://github.com/lipis/flag-icons. Kopie licence je v `assets/flags/LICENSE.txt`. Použity jsou přesné lokální SVG ikony CZ, SK, EU, PL, GB (označená UK) a HU. Nevyžadují externí načítání ani podporu emoji v operačním systému.
